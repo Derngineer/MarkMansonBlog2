@@ -1,0 +1,13 @@
+nav {
+  border-bottom: 1.5px solid black !important;
+}
+
+a.nav-link {
+    text-decoration: none !important;
+    border-bottom: 1px solid transparent !important;
+    transition: border-bottom 0.3s !important; /* Add a smooth transition effect */
+  }
+a.nav-link:hover {
+    border-bottom: 2px solid black !important;
+  } 
+

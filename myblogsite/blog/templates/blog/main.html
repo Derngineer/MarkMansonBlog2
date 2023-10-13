@@ -1,0 +1,321 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Manson</title>
+    <link rel="icon" href="path/to/your-icon.png" type="https://images.pexels.com/photos/3964485/pexels-photo-3964485.jpeg?auto=compress&cs=tinysrgb&w=1600">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">  
+    <link rel="stylesheet" href='static/myfirst.css'>
+    
+</head>
+<body>
+   <!--this the start of my header -->
+<header>
+  <nav class="navbar navbar-expand-lg bg-transparent border" style= "border-bottom: 1.5px solid black !important;" >
+  <div class="container-fluid">
+    <div class="row align-items-center w-100"> <!-- Add w-100 to take full width -->
+      <div class="col-6"> <!-- Use col-6 to take up 50% of the width -->
+        <a class="navbar-brand" href="/" style ="font-family:Montserrat"><strong>MARK MANSON</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+      </div>
+      <div class="col-6 text-end"> <!-- Use col-6 to take up 50% of the width and align content to the end -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" style ="font-family:Montserrat">
+            <li class="nav-item">
+              <a class="nav-link" href="/blog/">ARTICLES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">BOOKS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">COURSES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/register">NEWSLETTER</a>
+            </li>
+          </ul>
+          <div class="d-flex justify-content-end align-items-center" style ="font-family:Montserrat"> <!-- Align content to the end -->
+            <a class="nav-link m-3" href="/signin">LOG IN</a>
+            <a href="/register" class="btn btn-outline-dark rounded-pill" style="padding: 10px 40px; background-color:transparent;
+            color: black; border-color: black">SIGN UP</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+</header>
+    <!-- display, page front -->
+      <div class="container-fluid" style="height: 100%; border-bottom: 1.5px solid black">
+      <figure class="text-center">
+        <div class="row">
+          <div class="col-sm-12">
+        <h1 class="display-1 fw-bold" style=" line-height:1.2, font-weight: 700; font-family:Montserrat"> A New Approach to <br> Living a Good Life</h1>
+           </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <img id="img1" src="https://markmanson.net/wp-content/themes/mm-main/images/book-cover-eif.png" width="350" height="350">  
+          </div>
+          <div class="col-md-4">
+             <hr class="short-dividers">
+             <br>
+             <h1 class=" display-10 fw-bold" style=" font-size: 20px;line-height:40px; font-family:Montserrat "> <bold>DOWNLOAD A <span style ="color:red">FREE</span> CHAPTER OF 
+             THE SUBTLE <br> ART OF NOT GIVING A FUCK, MY #1 NEW YORK<br> TIMES BESTSELLING BOOK.</bold><br><br></h1>
+             <br>
+             <div class="input-group input-group-m-3">
+              <input type="email" class="form-control  rounded-pill mb-1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" style="border: 1px solid black">
+              <div class="input-group-append">
+                <button type="submit" class="btn btn-outline-dark rounded-pill input-group-append" style="color: white ; position: absolute; right: 0;">SIGN UP</button>
+              </div>
+            </div>
+            <p class="fst-italic m-2"  style ='font-family: Source Serif Pro; font-size: 16px' >Your information is protected and I never spam, ever. You can view my privacy policy <u>here.</u></p>
+                      <br>
+                      <br>
+                      <hr class="short-dividers">
+                      <br>
+                      <p style ='font-family: Source Serif Pro; font-size: 20px'>It is all about self-improvement not through avoiding <br> problems or always being happy, but rather through engaging<br> and improving upon problems and learning to accept the<br> occasional unhappiness.</p>
+                      <br><br>
+             </div>
+            <div class="col-md-4">
+              <img id ="img2" src="https://markmanson.net/wp-content/themes/mm-main/images/book-cover-subtle-art.png" width="350" height="350">
+            </div>            
+        </div>
+      <!-- the section -->        
+     </figure>
+   </div>
+
+    <!-- hi I am mark section halfway the page -->
+
+<div class='container-fluid' style="background-color: #F4F4F4;border-bottom:1.5px solid black; padding: 0px,height:100%, width: 100%">
+    
+       <div class="container-fluid text-center">
+      <div class="row" id="1">
+        <div class = 'col-sm-4'>
+        </div>
+        <div class=" align-self-center mt-5">
+          <h3 class="display-5 fw-bold mt-3" style ='font-family: Montserrat; font-size: 50px'> Hi, I'm Mark</h3><p class ="mt-5" style ='font-family: Source Serif Pro; font-size: 25px'>I am the #1 NY Times Bestselling author of 
+            <a class="fst-italic"  href="https://markmanson.net/books/subtle-art" style="color: tomato">The Subtle Art of Not Giving a<br> F*ck</a> and <a class="fst-italic" href="https://markmanson.net/books/everything-is-fucked" style ="color: tomato">Everything Is F*cked: A Book About Hope</a>. I write life advice that<br> is science-based, pragmatic, and non-bullshitty—a.k.a., life advice that
+            <br> doesn’t suck. Some people say I’m an idiot. Other people say I saved their<br> life. Read on and decide for yourself.</p>
+              </div>
+          </div>
+        <div class="row justify-content-center" id="2">
+        <div class="col-12"> 
+          <a  class="btn btn-outline-dark btn-lg rounded-pill" href="/blog/" role="button" style="width: auto;margin: 5px; font-family: Montserrat; padding: 10px 40px; border: 1px solid black; color: white"><span style = "font-size: 12px"><strong>TAKE MY COURSES</strong></span></a> 
+          </div> 
+        </div>
+      </div>
+
+     <br><br>
+       <div class="row justify-content-center mt-5" id="3"><hr class="dotted-line mt-2"  style = 'border: 0.5px dashed black; margin: 0'></div>
+     <br><br>
+
+       <!-- I want to put a carousel -->
+<div class=" container-fluid row"  id="4" style="padding-top: 50px;
+      padding-bottom: 50px;">
+        <div class="col-sm-12">
+          <div id="carouselExampleRide" class="carousel slide border" data-bs-ride="true">
+               <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://markmanson.net/wp-content/themes/mm-main/images/courses/build-a-better-life.png" class="d-block w-100" alt="Build a Better life">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://markmanson.net/wp-content/themes/mm-main/images/courses/how-to-be-more-resilient.png" class="d-block w-100" alt="Resilience">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://markmanson.net/wp-content/themes/mm-main/images/courses/master-your-emotions.png" class="d-block w-100" alt="Emotional Mastery">
+                </div>
+              </div>
+
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+       </div>          
+      </div>    
+  </div>
+   <!-- the carousel should end here -->
+    <strong>
+     <div class="container-fluid  mb-5 mt-5">
+       <div class="row justify-content-center mb-5" 
+       style="font-family: Montserrat; line-height:4; font-size: 18px;">
+       <div class="col-md-1  "></div>
+       
+         <div class="col-md-4  mb-5 mt-5"> 
+             <p class="display-6 fw-bold" style="font-size:20px;">LATEST ARTICLES</p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item display-7 bg-transparent">Why Growth Requires Struggle</li>
+              <li class="list-group-item display-7 bg-transparent">Trigger Warning: Reality Hurts</li>
+              <li class="list-group-item display-7 bg-transparent">Are You Entertained -Or Addicted</li>
+              <li class="list-group-item display-7 bg-transparent"> 3 Principles for a Better Life</li>
+              <li class="list-group-item display-7 bg-transparent">My Response to Will Smith Slapping Chris Rock</li>
+            </ul>      
+         </div>
+         <div class="col-md-4 mb-5 mt-5">
+          <p class="display-6 fw-bold" style="font-size: 20px;">POPULAR COURSES</p> 
+          <ul class="list-group list-group-flush bg-transparent">
+                <li class="list-group-item bg-transparent"> <img src="https://markmanson.net/wp-content/themes/mm-main/images/courses/new/square/small/2x/find-your-purpose.png">  Find Your Purposes</li>
+                <li class="list-group-item bg-transparent"> <img src="https://markmanson.net/wp-content/themes/mm-main/images/courses/new/square/small/2x/healthy-relationships.png"> Healthy Relationships</li>
+                <li class="list-group-item bg-transparent" > <img src="https://markmanson.net/wp-content/themes/mm-main/images/courses/new/square/small/2x/build-a-better-life.png">  Build a better Life</li>
+          </ul>
+        </div>
+      <div class="col-md-3 mb-5 mt-5"></div>
+       </div>
+     </div>
+   </div>
+  </strong> 
+     <!-- signup point in orange-->
+ <div class="container-fluid" style="background-color:  tomato;
+     height: 500px; padding: 0px">
+      <div class="row justify-content-center">
+        <div class ="col-md-3"></div>
+        <div class="col-md-5 mt-5">
+          <p class="display-6 fw-bold mt-5" style="padding-top: 25px;
+          font-size: 20px; font-family:Montserrat">5 MINUTES EACH WEEK THAT COULD<br> CHANGE YOUR LIFE</p>
+          <p style="font-size: 18px; font-family:Source Serif Pro ">Enter your email address below to sign up for my free <br>newsletter, The Breakthrough. Each week, you’ll receive a few <br> prompts and exercises designed to create your next<br> breakthrough. No fluff, no filler, no BS. Just five minutes each<br> week that could change your life.</p>
+          <br><br>
+          <div class="input-group input-group-m-3">
+            <input type="email" class="form-control rounded-pill mb-1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email" style ="border: 1px solid black">
+            <div class="input-group-append">
+              <button  type="submit" class="btn btn-outline-dark rounded-pill input-group-append" style="color: white ; position: absolute; right: 0;">SIGN UP</button>
+            </div>
+          </div>         
+        </div>
+        <div class =" col-3"> 
+        <img id= "img3" alt="Image" class="img-fluid"  src="https://markmanson.net/wp-content/themes/mm-main/images/phone-slanted-breakthrough-2.png" style="width: 100%">
+        </div>
+        <div class =" col-md-1"></div>
+      </div>     
+  </div>
+     
+ {% comment %} footer section in black {% endcomment %}
+  <footer>
+      <div class="container-fluid " style="background-color:#28282B;">
+
+        <div class="row justify-content-left">
+         
+          <div class="col-md-4">
+            <p class="display-6 fw-bold" style="padding-top: 25px;
+              font-size: 20px;
+              color: white;
+              padding-left: 100px; font-family: Montserrat">MARK MANSON</p>
+              <br>
+                  <p style="font-size: 14px;
+                  color: white;
+                  padding-left: 100px;
+                  font-family:Source Serif Pro;
+                  ">Enter your email address below to sign up for my free <br>newsletter, The Breakthrough. Each week, you’ll receive a few <br> prompts and exercises designed to create your next<br> breakthrough. No fluff, no filler, no BS. Just five minutes each<br> week that could change your life.</p>
+                  <p style="color: ghostwhite;
+                  padding: 100px; font-family: Source Serif Pro; font-size:12px"> <small>&copy 2023 Derby Matoma Cloning LLC</small></p>
+          </div>
+
+          <div class="col-md-8" style ="font-family: Montserrat">
+                <div class="vertical-line" style="border-left: 0.02px solid grey;height: 100%;">
+                  <div class="row">
+                    <div class="col-md-3" style="color: white; padding: 100px;">
+                        <p>
+                            ARTICLES<br><br>
+                            COURSES<br><br>
+                            ABOUT MARK<br><br>
+                            CONTACT
+                        </p>
+                    </div>
+                    <div class="col-md-9" style="color: white; padding: 100px;">
+                        <p>
+                            BOOKS<br><br>
+                            NEWSLETTER<br><br>
+                            SIGN UP<br><br>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="horizontal-line" style="border-bottom: 0.02px solid grey;
+                 width: 100%;">   
+                 </div>
+                 <div class ="row" style="color: ghostwhite;padding: 100px; font-family: Montserrat; font-size: 12px; line-height: 2.4; font-weight: lighter">
+                <div class = "col-3">
+                  Privacy Policy<br>
+                  Manage Cookie Setting<br>
+                  Terms and Conditions 
+                </div>
+                <div class ="col-9">
+                  <div class="social-icons">
+                    <a class ="m-3"   href="https://www.facebook.com/Markmansonnet/" aria-label="Facebook">
+                      <svg width="15" height="15" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.193 14.625V9.11h1.847l.277-2.144h-2.124V5.598c0-.62.173-1.044 1.063-1.044h1.135V2.637a15.192 15.192 0 0 0-1.655-.085c-1.636 0-2.756 1-2.756 2.834v1.58H6.129V9.11h1.85v5.515H1.168a.792.792 0 0 1-.792-.792V1.167a.792.792 0 0 1 .792-.792h12.666a.792.792 0 0 1 .792.792v12.666a.791.791 0 0 1-.792.792h-3.64z"></path>
+                      </svg></a><a class ="m-3" href="https://www.tiktok.com/@iammarkmanson" aria-label="TikTok">
+                        <svg width="13" height="15" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M11.871 3.735A3.395 3.395 0 0 1 9.201.728V.416H6.76V10.1a2.051 2.051 0 0 1-3.684 1.235h-.002.002A2.05 2.05 0 0 1 5.33 8.14V5.661a4.483 4.483 0 1 0 3.87 4.44V5.153a5.795 5.795 0 0 0 3.38 1.08V3.81c-.238 0-.476-.024-.71-.074z"></path>
+                        </svg></a><a class ="m-3" href="https://www.instagram.com/markmanson" aria-label="Instagram">
+                          <svg width="15" height="15" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M7.505.416c1.925 0 2.165.007 2.92.043.754.035 1.268.153 1.72.329.467.18.861.423 1.255.817.36.354.639.782.817 1.255.175.451.294.965.329 1.72.033.755.043.995.043 2.92 0 1.924-.008 2.164-.043 2.92-.035.754-.154 1.267-.33 1.719a3.459 3.459 0 0 1-.816 1.255c-.354.36-.783.639-1.255.817-.451.175-.966.294-1.72.33-.755.032-.995.042-2.92.042-1.924 0-2.164-.007-2.92-.043-.754-.035-1.267-.154-1.72-.33a3.463 3.463 0 0 1-1.255-.816 3.473 3.473 0 0 1-.816-1.255c-.176-.451-.294-.965-.33-1.72C.431 9.664.422 9.424.422 7.5c0-1.924.007-2.164.042-2.92.036-.754.154-1.267.33-1.72.177-.472.456-.9.816-1.254.354-.36.783-.64 1.256-.817.452-.176.964-.294 1.72-.33.755-.033.995-.042 2.92-.042zm0 3.542a3.542 3.542 0 1 0 0 7.083 3.542 3.542 0 0 0 0-7.083zm4.604-.177a.885.885 0 1 0-1.77 0 .885.885 0 0 0 1.77 0zM7.505 5.374a2.125 2.125 0 1 1 0 4.25 2.125 2.125 0 0 1 0-4.25z">
+
+                           </path></svg></a><a  class ="m-3" href="https://www.linkedin.com/in/markmanson" aria-label="LinkedIn"><svg width="14" height="13" fill="#fff" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)"><path d="M3.255 4.182H.445c-.125 0-.226.094-.226.21v8.383c0 .116.1.21.226.21h2.81c.125 0 .226-.094.226-.21V4.391c0-.115-.101-.21-.226-.21zM1.855.014C.832.014 0 .785 0 1.734s.832 1.72 1.855 1.72c1.021 0 1.853-.771 1.853-1.72S2.876.014 1.855.014zM10.41 3.973c-1.13 0-1.964.45-2.47.962v-.544c0-.116-.101-.21-.226-.21H5.023c-.125 0-.226.094-.226.21v8.384c0 .116.101.21.226.21h2.804c.125 0 .226-.094.226-.21V8.627c0-1.398.409-1.943 1.458-1.943 1.143 0 1.234.873 1.234 2.015v4.076c0 .116.1.21.226.21h2.805c.125 0 .226-.094.226-.21V8.176c0-2.079-.427-4.203-3.593-4.203z"></path></g><defs><clipPath id="a"><path d="M0 0h14v13H0z"></path></clipPath></defs>
+                          </svg></a><a class ="m-3" href="https://www.youtube.com/@IAmMarkManson" aria-label="YouTube"><svg width="17" height="13" fill="#fff" xmlns="http://www.w3.org/2000/svg"><path d="M16.05 2.144c.361 1.41.361 4.355.361 4.355s0 2.945-.361 4.356c-.201.78-.79 1.393-1.535 1.6-1.353.378-6.02.378-6.02.378s-4.665 0-6.02-.377a2.225 2.225 0 0 1-1.535-1.6C.578 9.443.578 6.498.578 6.498s0-2.945.362-4.355C1.14 1.364 1.73.75 2.474.543 3.83.166 8.494.166 8.494.166s4.668 0 6.021.377c.748.21 1.336.823 1.535 1.6zM6.91 9.27l4.75-2.77-4.75-2.771V9.27z"></path></svg></a><a href="https://twitter.com/IAmMarkManson" aria-label="Twitter"><svg width="15" height="13" fill="#fff" xmlns="http://www.w3.org/2000/svg"><path d="M14.696 2.007a5.94 5.94 0 0 1-1.702.466 2.972 2.972 0 0 0 1.304-1.64 5.92 5.92 0 0 1-1.882.72A2.963 2.963 0 0 0 7.37 4.254 8.41 8.41 0 0 1 1.263 1.16a2.962 2.962 0 0 0 .917 3.955 2.952 2.952 0 0 1-1.342-.37v.037a2.964 2.964 0 0 0 2.376 2.905 2.982 2.982 0 0 1-1.338.05 2.964 2.964 0 0 0 2.767 2.058 5.946 5.946 0 0 1-4.385 1.227 8.38 8.38 0 0 0 4.54 1.332c5.45 0 8.43-4.514 8.43-8.43 0-.127-.004-.256-.01-.382a6.02 6.02 0 0 0 1.479-1.533l-.001-.001z">
+                            </path></svg></a></div>
+                </div>
+
+
+                </div>                 
+              </div>                             
+          </div>
+      </div>
+  </footer>
+
+</section>    
+<script>
+  var buttons = document.querySelectorAll(".btn.btn-outline-dark.rounded-pill");
+
+  buttons.forEach((button) => {
+    button.addEventListener("mouseover",() => changeColor(button, true));
+    button.addEventListener("mouseout", () => changeColor(button, false));
+  });
+  
+  function changeColor(button, isMouseOver) {
+    if (isMouseOver) {
+      button.style.backgroundColor = "tomato";
+      button.style.color ="black";
+
+
+    } else {
+      button.style.backgroundColor = "";
+      button.style.color ="white";
+
+    }
+  }
+
+  var images = document.querySelectorAll("#img1,#img2,#img3");
+  images.forEach(function(image){
+
+    image.addEventListener("mouseover",function(){
+      image.style.transform ='scale(1.2)';
+
+    });
+    image.addEventListener("click",function(){
+      image.style.transform ='scale(1.5)';
+
+    });
+    image.addEventListener("mouseout",function(){
+      image.style.transform ='scale(1.0)';
+
+    });
+
+  });
+  
+  
+
+</script>   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

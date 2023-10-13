@@ -1,0 +1,77 @@
+{%extends 'blog/base.html'%}
+
+
+{%block content%}
+
+
+
+
+<div class ="row">
+
+  <div class="col-7" style="padding: 200px;">
+
+    <h1 style = "font-size: 80, font-family: Montserrat">{{my_articles.title}}</h1>
+    <hr>
+    <p style =" font-size: 20; font-family: Source Serif Pro">{{my_articles.blog_post}}</p>
+
+ </div>
+ <div class ="col-5">
+ </div>
+</div>
+
+<div class='row'>
+<div class="col-7 justify-content-center" style="padding-left: 200px; padding-right: 200px;">
+  <div class="input-group input-group-m-3">
+    <input type="email" class="form-control rounded-pill mb-1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email" style ="border: 1px solid black">
+    <div class="input-group-append">
+      <button type="submit" class="btn btn-outline-dark rounded-pill input-group-append" style="color: black; background:tomato ; position: absolute; right: 0;">SIGN UP</button>
+    </div>
+  </div>
+</div>
+<div class ="col-5">
+</div>
+</div>
+
+
+
+
+
+
+          
+          
+        <div class="comments" style="padding: 200px;">
+          <h3> comments</h3>
+          {% for comment in comments %}
+          <p class="font-weight-bold">
+            <hr>
+            {{ comment.name }}
+            <span class=" text-muted font-weight-normal">
+              {{ comment.date_posted }}
+            </span>
+          </p>
+          {{ comment.body | linebreaks }}
+          <hr>
+      
+        {% endfor %}
+      </div>
+
+
+    <div class="form-group" style="padding: 200px;">    
+    <div class="card-body" >
+        {% if new_comment %}
+        <div class="alert alert-success" role="alert">
+          Your comment is awaiting moderation
+        </div>
+        {% else %}
+        <h3>Leave a comment</h3>
+        <form method="POST" style="margin-top: 1.3em;
+        padding: 100px;">
+          {{ comment_form.as_p }}
+          {% csrf_token %}
+          <button type="submit" class="btn btn-outline-dark  btn-lg rounded-pill" style="padding-left:20px;padding-right: 20px; background-color:tomato">Submit</button>
+        </form>
+        {% endif %}
+      </div>
+    </div>
+
+{% endblock %}

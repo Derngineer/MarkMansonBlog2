@@ -1,0 +1,53 @@
+body{
+    background-color: #DAE5E6;
+}
+.short-dividers{
+    width:100%;
+}
+.form-group{
+    width:20%;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+.dotted-line{
+    width: 60%;
+    border: 0.5px dashed black;
+ /* 1px width, solid black border */
+
+}
+.form-control{
+    float: left;
+    width: 50%;
+}
+figure{
+    background-color:#DAE5E6 ;
+    padding: 0px;
+}
+
+ a.nav-link  {
+    text-decoration: none;
+    transition: border-bottom 0.3s; /* Add a smooth transition effect */
+  }
+a.nav-link:hover {
+    border-bottom: 2px solid black;
+  } 
+
+.btn{
+    background-color :#28282B;
+    border-color:#DAE5E6;
+}
+section{
+
+    height:100%;
+}
+.carousel-item{
+    height: 500px;
+
+}
+.carousel .slide{
+    border-color: black;
+}
+
+img {
+    transition: transform 0.3s ease-in-out; /* Adjust the duration and easing as needed */
+  }
